@@ -14,3 +14,5 @@ cd EntityResolution
 3) Run it:
 
 java -cp target/entity-resolution-0.0.1-SNAPSHOT.jar com.navidcs.entity_resolution.main.App
+
+results.txt will be created in "src/main/resources/" folder.

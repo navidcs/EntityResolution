@@ -18,6 +18,6 @@ public class Organizer {
 		System.out.println("Building the result ...");
 		resultBuilder = new ResultBuilder(inputCompiler.getProductsHashMap(), inputCompiler.getListinngsHashMap());
 		resultBuilder.run();
-		System.out.println("result.txt is built successfully in \"src/main/resources/\" folder.");
+		System.out.println("results.txt is built successfully in \"src/main/resources/\" folder.");
 	}
 }
