@@ -36,10 +36,8 @@ public class KeyWordsHashMapBuilder {
 
 		Boolean isProduct;
 		if (constantKeys[0].equals("product_name")) {
-			System.out.println("inside products:");
 			isProduct = true;
 		} else if (constantKeys[0].equals("title")) {
-			System.out.println("inside listings:");
 			isProduct = false;
 
 		} else {
@@ -62,7 +60,7 @@ public class KeyWordsHashMapBuilder {
 			splitedWordsHashMap.put(hashMapKey, splitedWordsHashSet);
 		}
 
-		showCharCounter();
+//		showCharCounter();
 
 		return splitedWordsHashMap;
 	}
@@ -73,9 +71,6 @@ public class KeyWordsHashMapBuilder {
 		for (String key : constantKeys) {
 			JsonNode valueJsonNode = jsonNode.get(key);
 			if (valueJsonNode == null) {
-				// System.err.println("There is no value for key: \"" + key +
-				// "\" in line:");
-				// System.err.println(jsonNode.asText().toString());
 				continue;
 			}
 			String valueString = valueJsonNode.asText();

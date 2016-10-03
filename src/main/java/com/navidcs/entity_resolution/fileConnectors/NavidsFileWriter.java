@@ -22,44 +22,24 @@ public class NavidsFileWriter {
 	}
 
 	public void run() {
-		
+
 		Writer writer = null;
 		try {
-			writer = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(RESULTS_FILE_PATH_STRING), StandardCharsets.UTF_8));
+			writer = new BufferedWriter(
+					new OutputStreamWriter(new FileOutputStream(RESULTS_FILE_PATH_STRING), StandardCharsets.UTF_8));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		try
-		{
-			
-		for (String lineString : processedResultsHashSet) {
-			writer.write(lineString);
-			writer.write('\n');
+		try {
+
+			for (String lineString : processedResultsHashSet) {
+				writer.write(lineString);
+				writer.write('\n');
+			}
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
-		writer.close();
-	} catch (IOException e) {
-		e.printStackTrace();
-	}
-		
-		
-		
-//		try {
-//			File resultFile = new File(RESULTS_FILE_PATH_STRING);
-//			if (!resultFile.exists()) {
-//				resultFile.createNewFile();
-//			}
-//			FileWriter fileWriter = new FileWriter(resultFile, false);
-//			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-//			for (String lineString : processedResultsHashSet) {
-//				bufferedWriter.write(lineString);
-//				bufferedWriter.write('\n');
-//			}
-//			bufferedWriter.close();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
 
 	}
 }

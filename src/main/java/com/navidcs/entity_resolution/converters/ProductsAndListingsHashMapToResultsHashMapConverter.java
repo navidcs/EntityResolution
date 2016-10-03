@@ -74,14 +74,6 @@ public class ProductsAndListingsHashMapToResultsHashMapConverter {
 			}
 			if (matchedListingsForProductKey.size() != 0) {
 				resultsFromProductNameToListingsHashMap.put(productKey, matchedListingsForProductKey);
-				System.out.println("productKey = " + productKey);
-				for (String string : productHashSet) {
-					System.out.print(string + " ");
-				}
-				System.out.println("listings:");
-				for (String string : matchedListingsForProductKey)
-					System.out.println(string);
-				System.out.println("-------------");
 			}
 
 		}

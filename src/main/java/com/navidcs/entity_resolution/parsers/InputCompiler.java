@@ -66,16 +66,6 @@ public class InputCompiler {
 		}
 	}
 
-//	 public void createProductsArrayList() {
-	// JsonToProductConverter jsonToProductConverter = new
-	// JsonToProductConverter(productsJsonArrayList);
-	// productsArrayList = jsonToProductConverter.getProductArrayList();
-//	 }
-
-//	public void createListingsArrayList() {
-//		JsonToListingConverter jsonToListingConverter = new JsonToListingConverter(listingsJsonArrayList);
-//		listingsStringArrayList= jsonToListingConverter.getListingStringArrayList();
-//	}
 
 	public void createStringArrayLists() {
 		productsStringArrayList = createStringArrayList(productsPath);
@@ -100,20 +90,5 @@ public class InputCompiler {
 		return stringToJasonArrayList.getJsonArrayList();
 
 	}
-
-	// public ArrayList<JsonNode>
-	// convertStringArrayListToObject(ArrayList<String> stringArrayList) {
-	// if (stringArrayList == null) {
-	// System.out.println("null p string arraylilst ");
-	// return null;
-	// }
-	// StringToJasonArrayList stringToJasonArrayList = new
-	// StringToJasonArrayList(stringArrayList);
-	// productsJsonArrayList = stringToJasonArrayList.getJsonArrayList();
-	//
-	// System.out.println("json:");
-	// System.out.println(productsJsonArrayList.get(0).get("manufacturer").toString());
-	//
-	// }
 
 }

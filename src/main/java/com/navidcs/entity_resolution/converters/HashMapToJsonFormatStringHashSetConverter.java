@@ -83,8 +83,6 @@ public class HashMapToJsonFormatStringHashSetConverter {
 		
 		stringBuilder.append("}");
 		
-		System.out.println("result is:");
-		System.out.println(stringBuilder.toString());
 		return stringBuilder.toString();
 	}
 	

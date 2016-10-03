@@ -12,10 +12,12 @@ public class Organizer {
 	ResultBuilder resultBuilder;
 
 	public void run() {
+		System.out.println("Compiling input files ...");
 		inputCompiler = new InputCompiler(PRODUCTS_PATH,LISTINGS_PATH);
 		inputCompiler.run();
+		System.out.println("Building the result ...");
 		resultBuilder = new ResultBuilder(inputCompiler.getProductsHashMap(), inputCompiler.getListinngsHashMap());
 		resultBuilder.run();
-		System.out.println("intégré");
+		System.out.println("The result file is built successfully.");
 	}
 }

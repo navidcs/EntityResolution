@@ -46,18 +46,13 @@ public class StringToJasonLine {
 		try {
 			jsonNode =  mapper.readTree(line);
 		} catch (JsonProcessingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		if (jsonNode == null) {
 			System.err.println("couln't convert this line to JSON:");
 			System.err.println(line);
-		}
-		else {
-			System.out.println("json manfacturor" + jsonNode.get("manufacturer"));
 		}
 	}
 	

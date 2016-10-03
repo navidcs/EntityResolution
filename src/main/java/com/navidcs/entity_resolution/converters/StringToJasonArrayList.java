@@ -18,12 +18,8 @@ public class StringToJasonArrayList {
 	}
 
 	public void run() {
-//		ArrayList<JsonNode> jsonNodesArrayList = new ArrayList<JsonNode>();
 		ObjectMapper mapper = new ObjectMapper();
-//		System.out.println("after object mapper");
 		for (String string : linesInTextFileString) {
-//			System.out.println(count++);
-//			System.out.println(string);
 			StringToJasonLine stringToJasonLine = new StringToJasonLine(string, mapper);
 			stringToJasonLine.run();
 			jsonNodesArrayList.add(stringToJasonLine.getJsonNode());
