@@ -7,7 +7,7 @@
 
 git clone https://github.com/navidcs/EntityResolution.git
 
-2) go to EntityResolution directory (where pom.xml exits):
+2) go to EntityResolution directory (where pom.xml is):
 
 cd EntityResolution
 
