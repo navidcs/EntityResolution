@@ -1,6 +1,6 @@
 #EntityResolution
 
-#Simple Run:
+###Simple Run:
 
 
 1) Clone my repository:
