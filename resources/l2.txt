@@ -1,0 +1,6 @@
+{"title":"Canon PowerShot A1200 (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"129.99"}
+{"title":"LED Flash Macro Ring Light (48 X LED) with 6 Adapter Rings for For Canon/Sony/Nikon/Sigma Lenses","manufacturer":"Neewer Electronics Accessories","currency":"CAD","price":"35.99"}
+{"title":"Canon EOS Rebel T2i (550d) SLR Digital Camera - Body Only - W/ Canon Ef 50mm F/1.8 Lens + Huge SSE Accessory Package","manufacturer":"Digital","currency":"USD","price":"1247.95"}
+{"title":"Leica DIGILUX 3 7.5MP Digital SLR Camera with Leica D 14-50mm f/2.8-3.5 ASPH Lens with Optical Image Stabilization","manufacturer":"Leica","currency":"USD","price":"1499.00"}
+{"title":"Leica DIGILUX 3 7.5MP Digital SLR Camera with Leica D 14-50mm f/2.8-3.5 ASPH Lens with Optical Image Stabilization","manufacturer":"Leica","currency":"USD","price":"3500.00"}
+{"title":"Nikon D7000 Digital SLR Camera & 18-105mm VR + 55-200mm Lens + 8GB Card + Filters + Tamrac Case + Accessory Kit","manufacturer":"Nikon","currency":"USD","price":"1819.95"}

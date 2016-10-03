@@ -1,0 +1,5 @@
+{"title":"Canon EOS 5D - Digital camera - SLR - 12.8 Mpix - Canon EF 24-105mm IS lens - optical zoom: 4.3 x - supported memory: CF, Microdrive","manufacturer":"Canon","currency":"USD","price":"4489.00"}
+{"title":"Leica Digilux 4.3 2.4MP Digital Camera w/ 3x Optical Zoom","manufacturer":"Leica","currency":"USD","price":"225.00"}
+{"title":"Fujifilm FinePix 50i - Digital camera - compact with digital player - 2.2 Mpix / 4.3 Mpix (interpolated) - supported memory: SM - silver","manufacturer":"FUJIFILM","currency":"USD","price":"189.95"}
+{"title":"Leica Digilux 1 3.9MP Digital Camera w/ 3x Optical Zoom","manufacturer":"Leica","currency":"USD","price":"399.00"}
+{"title":"Nikon Coolpix S1100pj 14 MP Digital Camera with 5x Wide Angle Optical Vibration Reduction (VR) Zoom and 3-Inch LCD and Built-in Projector (Green)","manufacturer":"Nikon","currency":"USD","price":"243.00"}
