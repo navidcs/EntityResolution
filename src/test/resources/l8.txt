@@ -1,0 +1,6 @@
+{"title":"Leica Digilux 4.3 2.4MP Digital Camera w/ 3x Optical Zoom","manufacturer":"Leica","currency":"USD","price":"225.00"}
+{"title":"Nikon - Coolpix S1100pj - Appareil photo numérique avec Vidéoprojecteur intégré - 14,1 Mpix - Noir Techno","manufacturer":"Nikon","currency":"EUR","price":"264.00"}
+{"title":"PANASONIC Lumix DMC-FX70 - noir + Etui Pixmania Compact 11 X 3.5 X 8 CM NOIR + Carte mémoire SDHC 8 Go + Mini trépied Pocketpod","manufacturer":"Panasonic","currency":"EUR","price":"364.99"}
+{"title":"PANASONIC Lumix DMC-FX70 - noir   Etui Pixmania Compact 11 X 3.5 X 8 CM NOIR   Carte mémoire SDHC 8 Go","manufacturer":"Panasonic","currency":"EUR","price":"355.99"}
+{"title":"PANASONIC Lumix DMC-FX70 - noir + Etui Pixmania compact cuir 11 x 3,5 x 8 cm + Carte mémoire SDHC 16 Go","manufacturer":"Panasonic","currency":"EUR","price":"372.99"}
+{"title":"PANASONIC Lumix DMC-FX70 - noir + Etui Pixmania Compact 11 X 3.5 X 8 CM NOIR + Carte mémoire SDHC 8 Go","manufacturer":"Panasonic","currency":"EUR","price":"355.99"}

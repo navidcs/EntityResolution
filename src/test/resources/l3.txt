@@ -1,0 +1,4 @@
+{"title":"Leica 'Digilux 2' 5MP Digital Camera with 3.4 Optical Zoom","manufacturer":"Leica","currency":"USD","price":"1299.00"}
+{"title":"Leica Digilux 4.3 2.4MP Digital Camera w/ 3x Optical Zoom","manufacturer":"Leica","currency":"USD","price":"225.00"}
+{"title":"Leica 'Digilux 2' 5MP Digital Camera with 4 3 Optical Zoom","manufacturer":"Leica","currency":"USD","price":"3499.00"}
+{"title":"Leica 'Digilux 2' 5MP Digital Camera with 4.3 Optical Zoom","manufacturer":"Leica","currency":"USD","price":"3499.00"}

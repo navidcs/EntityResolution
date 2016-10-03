@@ -1,0 +1,5 @@
+{"title":"Nikon Coolpix S1100pj 14 MP Digital Camera with 5x Wide Angle Optical Vibration Reduction (VR) Zoom and 3-Inch LCD and Built-in Projector (Silver)","manufacturer":"Nikon","currency":"USD","price":"220.00"}
+{"title":"Nikon - Coolpix S1100pj - Appareil photo numérique avec Vidéoprojecteur intégré - 14,1 Mpix - Noir Techno","manufacturer":"Nikon","currency":"EUR","price":"264.00"}
+{"title":"Nikon Coolpix S1100pj 14 MP Digital Camera with 5x Wide Angle Optical Vibration Reduction (VR) Zoom and 3-Inch LCD and Built-in Projector (Green)","manufacturer":"Nikon","currency":"USD","price":"243.00"}
+{"title":"Nikon - Coolpix S1100pj - Appareil photo numérique avec Vidéoprojecteur intégré - 14,1 Mpix - Noir Techno","manufacturer":"Nikon","currency":"EUR","price":"285.01"}
+{"title":"Nikon Coolpix S1100pj S1100pj Coolpix 14 MP Digital Camera with 5x Wide Angle Optical Vibration Reduction (VR) Zoom and 3-Inch LCD and Built-in Projector (Silver)","manufacturer":"Nikon","currency":"USD","price":"220.00"}

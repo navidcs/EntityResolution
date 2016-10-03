@@ -4,8 +4,8 @@ import com.navidcs.entity_resolution.parsers.InputCompiler;
 
 public class Organizer {
 
-	public final static String PRODUCTS_PATH="resources/products.txt";
-	public final static String LISTINGS_PATH="resources/listings.txt";
+	public final static String PRODUCTS_PATH="src/main/resources/products.txt";
+	public final static String LISTINGS_PATH="src/main/resources/listings.txt";
 
 	
 	InputCompiler inputCompiler;
@@ -18,6 +18,6 @@ public class Organizer {
 		System.out.println("Building the result ...");
 		resultBuilder = new ResultBuilder(inputCompiler.getProductsHashMap(), inputCompiler.getListinngsHashMap());
 		resultBuilder.run();
-		System.out.println("result.txt file is built successfully in \"resources\" folder.");
+		System.out.println("result.txt file is built successfully in \"src/main/resources/\" folder.");
 	}
 }

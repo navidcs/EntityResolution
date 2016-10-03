@@ -1,20 +1,16 @@
 package com.navidcs.entity_resolution.fileConnectors;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import java.util.HashSet;
 
 public class NavidsFileWriter {
-	final static String RESULTS_FILE_PATH_STRING = "resources/results.txt";
+	final static String RESULTS_FILE_PATH_STRING = "src/main/resources/results.txt";
 	HashSet<String> processedResultsHashSet;
 
 	public NavidsFileWriter(HashSet<String> processedResultsHashSet) {
