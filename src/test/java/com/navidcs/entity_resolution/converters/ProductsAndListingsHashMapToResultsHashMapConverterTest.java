@@ -100,9 +100,6 @@ public class ProductsAndListingsHashMapToResultsHashMapConverterTest {
 
 	}
 
-	@After
-	public void tearDown() throws Exception {
-	}
 
 	@Test
 	public void testGetResultsHashMapProductName() {
