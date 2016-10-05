@@ -29,7 +29,6 @@ public class ProductsAndListingsHashMapToResultsHashMapConverterTest {
 	String listingString2;
 	String listingString3;
 
-
 	@Before
 	public void setUp() throws Exception {
 		productHashMap = new HashMap<String, HashSet<String>>();
@@ -100,15 +99,12 @@ public class ProductsAndListingsHashMapToResultsHashMapConverterTest {
 
 	}
 
-
 	@Test
 	public void testGetResultsHashMapProductName() {
 
 		assertTrue(resultsHashMap.containsKey(productName));
 
 	}
-
-
 
 	@Test
 	public void testGetResultsHashMapListingString1() {
@@ -117,16 +113,12 @@ public class ProductsAndListingsHashMapToResultsHashMapConverterTest {
 
 	}
 
-
-
 	@Test
 	public void testGetResultsHashMapListingString2() {
 
 		assertFalse(resultsHashMap.get(productName).contains(listingString1));
 
 	}
-
-
 
 	@Test
 	public void testGetResultsHashMapListingString3() {
@@ -135,12 +127,10 @@ public class ProductsAndListingsHashMapToResultsHashMapConverterTest {
 
 	}
 
-
 	@Test
 	public void testGetResultsHashMapSizeOfHashSet() {
-		assertEquals(1,resultsHashMap.get(productName).size());
+		assertEquals(1, resultsHashMap.get(productName).size());
 
 	}
-
 
 }
