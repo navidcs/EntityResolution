@@ -94,6 +94,7 @@ public class KeyWordsHashMapBuilder {
 
 	}
 	
+	// This method was written for preprocessing the data
 	private void showCharCounter() {
 		for(char c: charCounter.keySet()){
 			System.out.println(c+" "+charCounter.get(c));

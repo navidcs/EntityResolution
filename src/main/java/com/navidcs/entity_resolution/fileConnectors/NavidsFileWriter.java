@@ -10,11 +10,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 
 public class NavidsFileWriter {
-	final static String RESULTS_FILE_PATH_STRING = "src/main/resources/results.txt";
 	HashSet<String> processedResultsHashSet;
-
-	public NavidsFileWriter(HashSet<String> processedResultsHashSet) {
+	String path;
+	public NavidsFileWriter(HashSet<String> processedResultsHashSet, String path) {
 		this.processedResultsHashSet = processedResultsHashSet;
+		this.path = path;
 	}
 
 	public void run() {
@@ -22,7 +22,7 @@ public class NavidsFileWriter {
 		Writer writer = null;
 		try {
 			writer = new BufferedWriter(
-					new OutputStreamWriter(new FileOutputStream(RESULTS_FILE_PATH_STRING), StandardCharsets.UTF_8));
+					new OutputStreamWriter(new FileOutputStream(path), StandardCharsets.UTF_8));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

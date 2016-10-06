@@ -13,6 +13,8 @@ public class ResultBuilder {
 	HashMap<String, HashSet<String>> resultsFromProductNameToListingsHashMap;
 	HashSet<String> processedResultsHashSet;
 
+	final static String RESULTS_FILE_PATH_STRING = "src/main/resources/results.txt";
+
 	public ResultBuilder(HashMap<String, HashSet<String>> productsHashMap,
 			HashMap<String, HashSet<String>> listinngsHashMap) {
 		this.productsHashMap = productsHashMap;
@@ -42,7 +44,7 @@ public class ResultBuilder {
 	}
 
 	public void writeResultsToFile() {
-		NavidsFileWriter navidsFileWriter = new NavidsFileWriter(processedResultsHashSet);
+		NavidsFileWriter navidsFileWriter = new NavidsFileWriter(processedResultsHashSet, RESULTS_FILE_PATH_STRING);
 		navidsFileWriter.run();
 		
 	}
