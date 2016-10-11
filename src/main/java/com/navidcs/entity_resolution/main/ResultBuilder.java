@@ -22,18 +22,19 @@ public class ResultBuilder {
 		resultsFromProductNameToListingsHashMap = new HashMap<String, HashSet<String>>();
 	}
 
-	public void createResultsHashMap() {
-		ProductsAndListingsHashMapToResultsHashMapConverter productsAndListingsHashMapToResultsHashMapConverter = new ProductsAndListingsHashMapToResultsHashMapConverter(
-				productsHashMap, listingsHashMap);
-		productsAndListingsHashMapToResultsHashMapConverter.run();
-		resultsFromProductNameToListingsHashMap = productsAndListingsHashMapToResultsHashMapConverter.getResultsHashMap();
-		
-	}
-
 	public void run() {
 		createResultsHashMap();
 		createProcessedResultsHashSet();
 		writeResultsToFile();
+	}
+
+	public void createResultsHashMap() {
+		ProductsAndListingsHashMapToResultsHashMapConverter productsAndListingsHashMapToResultsHashMapConverter = new ProductsAndListingsHashMapToResultsHashMapConverter(
+				productsHashMap, listingsHashMap);
+		productsAndListingsHashMapToResultsHashMapConverter.run();
+		resultsFromProductNameToListingsHashMap = productsAndListingsHashMapToResultsHashMapConverter
+				.getResultsHashMap();
+
 	}
 
 	public void createProcessedResultsHashSet() {
@@ -46,7 +47,7 @@ public class ResultBuilder {
 	public void writeResultsToFile() {
 		NavidsFileWriter navidsFileWriter = new NavidsFileWriter(processedResultsHashSet, RESULTS_FILE_PATH_STRING);
 		navidsFileWriter.run();
-		
+
 	}
 
 }
